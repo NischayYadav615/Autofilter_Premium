@@ -1143,7 +1143,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('🔌 𝙰𝚍𝚍 𝙼𝚎 𝚃𝚘 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙 💻', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('📞 𝙱𝚘𝚝 𝙾𝚠𝚗𝚎𝚛', callback_data="owner_info"),
-                    InlineKeyboardButton('🔭 𝙸𝚗𝚕𝚒𝚗𝚎 𝚂𝚎𝚊𝚛𝚌𝚑', switch_inline_query_current_chat=)
+                    InlineKeyboardButton('🔭 𝙸𝚗𝚕𝚒𝚗𝚎 𝚂𝚎𝚊𝚛𝚌𝚑', switch_inline_query_current_chat='')
                 ],[
                     InlineKeyboardButton('⛅ 𝙷𝚎𝚕𝚙', callback_data='help'),
                     InlineKeyboardButton('☃️ 𝙰𝚋𝚘𝚞𝚝', callback_data='about'),
